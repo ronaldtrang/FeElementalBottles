@@ -1,0 +1,5 @@
+development:
+  password: password
+  theme_id: "111111111"
+  store: store.myshopify.com
+  timeout: 30s

@@ -1,0 +1,154 @@
+$brown: #716559;
+$light-brown: #bba793;
+$tan: #efe6e3;
+$teal: #29838f;
+$light-teal: #a7cccb;
+
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+
+#elemental-the-multipurpose-insulated-stainless-steel-water-bottle {  
+  .main-content {
+    background: url("https://cdn.shopify.com/s/files/1/1462/0790/files/waves_single.png?2498403202162311761") no-repeat center;
+    background-size: 90%;
+  }
+  
+  .quote-container {
+    width: 700px;
+    margin: auto;
+
+    img {
+      height: 120px;
+      display: block;
+      margin: auto;
+    }
+
+    hr {
+      border-width: 4px 0 0;
+      border-color: $light-teal;
+      margin-top: -12px;
+    }
+  }
+
+  #homeContainer {
+    margin-top: -20px;
+
+    .badge--sale {
+      display: none;
+    }
+
+    .grid-uniform {
+      width: 60%;
+      margin: auto;
+    }
+    
+    #productContainer {
+      width: 60%;
+      margin: auto;
+      
+      label {
+        font-weight: bold;
+        text-align: center;
+        margin-top: -20px;
+        cursor: pointer;
+      }
+      
+      a {
+        color: $brown;
+        
+        &:hover {
+          color: $teal;
+        }
+      }
+    }
+    
+    #sealContainer {
+      max-width:1500px;
+      margin: auto;
+      
+      a {
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+      
+      img {
+        height: 300px;
+        width: auto;
+        margin-top: -180px;
+        position: absolute;
+      }
+    }
+    
+    
+    .grid__item {
+      padding-left: 0;
+    }
+  }
+}
+
+@media (max-width: $large) {
+  #elemental-the-multipurpose-insulated-stainless-steel-water-bottle {
+    #homeContainer {
+      .grid-uniform {
+        width: 100%;
+      }
+
+      #sealContainer {
+        img {
+          height: 200px;
+          margin-top: -95px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $small) {
+  #elemental-the-multipurpose-insulated-stainless-steel-water-bottle {
+    .main-content {
+      background-image: none;
+    }
+    
+    .quote-container {
+      width: 100%;
+      margin: auto;
+
+      img {
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin: auto;
+      }
+
+      hr {
+        border-width: 4px 0 0;
+        border-color: $light-teal;
+        margin-top: -12px;
+      }
+    }
+    
+    #homeContainer {
+      #sealContainer {
+        margin-top:30px;
+        
+        
+        
+        img {
+          position: relative;
+          margin-top: 0;
+          display: block;
+          margin: auto;
+          height: 300px
+        }
+        
+        a {
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}

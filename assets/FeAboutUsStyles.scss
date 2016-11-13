@@ -1,0 +1,71 @@
+$light-teal: #a7cccb;
+
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+
+#about-us {
+  .main-content {
+    background: url("https://cdn.shopify.com/s/files/1/1462/0790/files/waves_single.png?2498403202162311761") no-repeat;
+    background-size: 90%;
+    background-position: 50% 37%;
+  }
+  
+  .section-header__title {
+    display: none;
+  }
+  
+  p {
+    text-indent: 50px;
+    font-size: 18px;
+  }
+  
+  .quote-container {
+    width: 1000px;
+    height: auto;
+  	margin: auto;  
+    margin-top: -25px;
+    
+    hr {
+      margin-top: -12px;
+      border-width: 4px 0 0;
+      border-color: $light-teal;
+    }
+  }
+}
+
+@media (max-width: $large) {
+  #aboutUsContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: $medium) {
+  #about-us {
+    .quote-container {
+      width: 100%;
+      margin: auto;
+
+      img {
+        height: 100%;
+        width: 100%;
+        display: block;
+        margin: auto;
+      }
+
+      hr {
+        border-width: 4px 0 0;
+        border-color: $light-teal;
+        margin-top: -12px;
+      }
+    }
+  }
+}
+
+@media (max-width: $small) {
+  #about-us {
+    .main-content {
+      background-image: none;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+<!-- This is the home page -->
+<div class="quote-container">
+  <img src="https://cdn.shopify.com/s/files/1/1462/0790/files/homepage_quote-min.png?562063010521710636" />
+  <hr />
+</div>
+
+<div id="homeContainer">
+  {% comment %}
+  {% if settings.home_section_1 != blank %}
+    {% include settings.home_section_1 %}
+  {% endif %}
+
+  {% if settings.home_section_2 != blank %}
+    <hr class="hr--small hr--clear">
+    {% include settings.home_section_2 %}
+  {% endif %}
+
+  {% if settings.home_section_3 != blank %}
+    <hr class="hr--small hr--clear">
+    {% include settings.home_section_3 %}
+  {% endif %}
+
+  {% if settings.home_section_4 != blank %}
+    <hr class="hr--small hr--clear">
+    {% include settings.home_section_4 %}
+  {% endif %}
+  {% endcomment %}
+  
+  <div id="productContainer" class="grid grid-full">
+    <div class="grid__item large--one-half">
+      <a href="/products/earth-25oz-elemental-vacuum-insulated-water-bottle-matte-black">
+    	<img src="https://cdn.shopify.com/s/files/1/1462/0790/files/elemental_black_bottle_cusshy_shadow-min.png?13177848172913795519" />
+      
+          <label>
+              <span>25oz Element Vacuum Insulated</span>  
+              <br/>
+              <span>Water Bottle - Matte Black</span>
+          </label>
+        </a>
+    </div>
+    <div class="grid__item large--one-half">
+      <a href="/products/25oz-elemental-vacuum-insulated-water-bottle-matte-white">
+    	<img src="https://cdn.shopify.com/s/files/1/1462/0790/files/elemental_white_bottle_cusshy_shadow-min.png?13177848172913795519" />
+      
+      	<label>
+            <span>25oz Element Vacuum Insulated</span>  
+            <br/>
+            <span>Water Bottle - Matte White</span>
+        </label>
+      </a>
+    </div>
+    
+  </div>
+  
+  <div id="sealContainer">
+    <a href="/pages/quality-assurance" title="View our quality assurance">
+      <img src="https://cdn.shopify.com/s/files/1/1462/0790/files/elemental_logo___seal-teal-min.png?16022852218457430771" />
+    </a>
+    </div>
+</div>

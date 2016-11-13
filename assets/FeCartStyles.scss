@@ -1,0 +1,17 @@
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+
+#your-shopping-cart {
+  main {
+    width: 80%;
+  }
+}
+
+@media (max-width: $large) {
+  #your-shopping-cart {
+    main {
+      width: 100%;
+    }
+  }
+}

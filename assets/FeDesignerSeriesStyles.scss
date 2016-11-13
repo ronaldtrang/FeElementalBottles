@@ -1,0 +1,19 @@
+$small: 768px;
+$medium: 992px;
+$large: 1200px;
+
+#designer-series {
+  main {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: $large) {
+  #designer-series {
+    main {
+      width: 100%;
+      margin: auto;
+    }
+  }
+}
